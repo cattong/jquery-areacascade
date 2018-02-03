@@ -1,9 +1,11 @@
 # jquery-areacascade
 a jquery plugin for area cascade select
+动态级联下拉jquery插件；
 
+##usage:
 
-usage:
-
+```
+//联初始化
  var initSelectedVals = ["", "",""];
  $('select[name=province_code]').areacascade({
      'selectors': ['select[name=province_code]', 'select[name=city_code]', 'select[name=district_code'],
@@ -13,3 +15,4 @@ usage:
      'initRequest': true,
      'initSelectedVals': initSelectedVals,
  });
+```
